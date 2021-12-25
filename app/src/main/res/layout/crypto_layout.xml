@@ -17,7 +17,6 @@
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
         android:src="@drawable/facebook"
         app:layout_constraintBottom_toTopOf="@+id/TV_crypto_name"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,13 +24,13 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_crypto_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="60dp"
-        android:fontFamily="@font/questrial"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="68dp"
         android:gravity="center"
         android:text="Stock Name"
         android:textAlignment="center"
@@ -39,53 +38,48 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/IV_stock"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/IV_stock" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/TV_crypto_netWorth_Rs"
+       android:id="@+id/TV_crypto_netWorth_Rs"
+        android:fontFamily="@font/questrial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/questrial"
         android:gravity="center"
         android:text="Rs: "
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_netWorth"
         app:layout_constraintEnd_toStartOf="@+id/TV_crypto_netWorth"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="@+id/TV_crypto_netWorth" />
 
     <TextView
 
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_crypto_netWorth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/questrial"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="100"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/TV_crypto_price"
-        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_price"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_price" />
 
     <TextView
 
         android:id="@+id/TV_crypto_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:fontFamily="@font/questrial"
         android:gravity="center"
         android:text="100"
         android:textColor="@color/white"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="@+id/TV_crypto_holding"
-        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_holding" />
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
 
     <TextView
 
@@ -96,17 +90,18 @@
         android:gravity="center"
         android:text="Rs: "
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_price"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_name"
         app:layout_constraintEnd_toStartOf="@+id/TV_crypto_price"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_price" />
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_name"
+        app:layout_constraintVertical_bias="0.285" />
 
     <TextView
         android:id="@+id/TV_crypto_holding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:fontFamily="@font/questrial"
         android:gravity="center"
         android:text="100"
@@ -123,24 +118,20 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Holding"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_holding"
         app:layout_constraintEnd_toStartOf="@+id/TV_crypto_holding"
         app:layout_constraintTop_toTopOf="@+id/TV_crypto_holding" />
 
     <TextView
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_worthText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:fontFamily="@font/questrial"
         android:text="Worth"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_price"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/TV_crypto_name"
         app:layout_constraintTop_toTopOf="@+id/TV_crypto_price" />
 
     <TextView
@@ -151,25 +142,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="NetWorth"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_netWorth"
         app:layout_constraintEnd_toStartOf="@+id/TV_crypto_netWorth_Rs"
         app:layout_constraintTop_toTopOf="@+id/TV_crypto_netWorth" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="20dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/nfc" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

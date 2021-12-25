@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-
+       android:fontFamily="@font/questrial"
         android:id="@+id/TV_stock_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,6 +39,7 @@
         app:layout_constraintVertical_bias="0.875" />
 
     <TextView
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_Rs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_holding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,6 +66,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:fontFamily="@font/questrial"
         android:id="@+id/TV_total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
