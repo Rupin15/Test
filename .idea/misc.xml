@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/background_stock_portfolio.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/itemview_stock.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/itemview_stock1.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/itemview_stock2.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout-large/crypto_layout.xml" value="0.131640625" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_front_page_options.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_login_backup.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_modern_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_news.xml" value="0.1" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_portfolio.xml" value="0.22" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/crypto_layout.xml" value="0.5" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/stock_item_view.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/stock_layout.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
