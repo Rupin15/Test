@@ -1,9 +1,9 @@
 package com.example.basiclayouts;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -44,6 +44,11 @@ public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.ViewHolder
 //                break;
 //
 //        }
+
+        AnimationDrawable animationDrawable=(AnimationDrawable) holder.constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setExitFadeDuration(4000);
+        animationDrawable.start();
     }
 
     @Override
@@ -53,12 +58,13 @@ public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.ViewHolder
 
      class ViewHolder extends RecyclerView.ViewHolder{
         TextView cryptoName, cryptoOwned,cryptoWorth,cryptoNetWorth;
-
+         ConstraintLayout constraintLayout;
         public ViewHolder(View itemView) {
             super(itemView);
             cryptoName=itemView.findViewById(R.id.TV_crypto_name);
             cryptoOwned=itemView.findViewById(R.id.TV_crypto_holding);
-            cryptoWorth=itemView.findViewById(R.id.TV_crypto_Rs);
-            cryptoNetWorth=itemView.findViewById(R.id.TV_crypto_total);
+            cryptoWorth=itemView.findViewById(R.id.TV_crypto_price);
+            cryptoNetWorth=itemView.findViewById(R.id.TV_crypto_netWorth);
+            constraintLayout=itemView.findViewById(R.id.CV_cryptoItem);
         }}
 }

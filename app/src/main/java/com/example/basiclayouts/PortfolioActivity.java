@@ -1,9 +1,11 @@
 package com.example.basiclayouts;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 
@@ -17,6 +19,7 @@ public class PortfolioActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_portfolio);
+
         recyclerViewStock();
          recyclerViewCurrency();
     }
