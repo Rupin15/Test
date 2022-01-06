@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.ms.square.android.expandabletextview.ExpandableTextView;
+
 import java.util.List;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
@@ -28,6 +30,7 @@ public NewsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 public void onBindViewHolder(NewsAdapter.NewsViewHolder holder, int position) {
         int roundNo=newsList.get(position).getRoundNo();
         String headline=newsList.get(position).getHeadline();
+        String expandable=newsList.get(position).getExpandableText();
         holder.Headline.setText(headline);
         holder.RoundNo.setText(roundNo+"");
         holder.newsImage.setImageResource(R.drawable.crypto_selector_background);
@@ -40,12 +43,13 @@ public int getItemCount() {
 
 protected class NewsViewHolder extends RecyclerView.ViewHolder {
     private TextView Headline,RoundNo ;
+    private ExpandableTextView expandableNews;
     private ImageView newsImage;
     public NewsViewHolder(View itemView) {
         super(itemView);
         Headline=itemView.findViewById(R.id.idTVNewsHeading);
         RoundNo=itemView.findViewById(R.id.TV_number);
         newsImage=itemView.findViewById(R.id.idIVNews);
-    }
+   }
 }
 }

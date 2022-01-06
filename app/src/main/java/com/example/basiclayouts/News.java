@@ -9,13 +9,14 @@ import org.w3c.dom.Text;
 public class News {
 
     private String newsImage;
-    private String  headline;
+    private String  headline,expandableText;
     private int roundNo;
 
     public News(String headline, int roundNo) {
         this.headline = headline;
         this.roundNo = roundNo;
     }
+
 
     public String getNewsImage() {
         return newsImage;
@@ -35,6 +36,14 @@ public class News {
 
     public String getHeadline() {
         return headline;
+    }
+
+    public String getExpandableText() {
+        return expandableText;
+    }
+
+    public void setExpandableText(String expandableText) {
+        this.expandableText = expandableText;
     }
 
     public void setHeadline(String headline) {

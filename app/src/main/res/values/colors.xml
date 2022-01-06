@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="recyclerView">#463C6E</color>
+    <color name="gray">#D3d3d3</color>
 </resources>
 
 <!--6995ed  3b2c82 5579c6  F74343B6-->

@@ -9,22 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicLayouts">
-        <activity android:name=".NewsActivity"></activity>
-        <activity android:name=".LoginBackupActivity" />
-        <activity android:name=".Login" />
-        <activity android:name=".FrontPageOptionsActivity" />
-        <activity android:name=".ModernDashboard" />
-        <activity android:name=".PortfolioActivity"
+        <activity android:name=".TradingActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="false">
+            android:name=".NewsActivity"
+            android:exported="true" />
+        <activity android:name=".LoginBackupActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".FrontPageOptionsActivity" />
+        <activity android:name=".ModernDashboard" />
+        <activity
+            android:name=".PortfolioActivity"
+            android:exported="true">
+
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

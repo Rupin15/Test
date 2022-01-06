@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">BasicLayouts</string>
     <string-array name="CryptoCurrency">
-        <item>@string/Cryot01</item>
-        <item>@string/Cryot02</item>
-        <item>@string/Cryot03</item>
+        <item>@string/Choose</item>
+        <item>@string/Crypot01</item>
+        <item>@string/Crypot02</item>
+        <item>@string/Crypot03</item>
     </string-array>
-    <string name="Cryot01">CryptoOne</string>
-    <string name="Cryot02">CryptoTwo</string>
-    <string name="Cryot03">CryptoThree</string>
+    <string name="Choose">Choose One</string>
+    <string name="Crypot01">CryptoOne</string>
+    <string name="Crypot02">CryptoTwo</string>
+    <string name="Crypot03">CryptoThree</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
