@@ -9,7 +9,7 @@
 
     <TextView
         android:fontFamily="@font/questrial"
-        android:id="@+id/TV_news_heading"
+        android:id="@+id/TV_stock_name_trading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stock Price"

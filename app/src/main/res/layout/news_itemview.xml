@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="85dp"
-            android:id="@+id/idIVNews"
+            android:id="@+id/IV_News_Image"
             android:scaleType="fitXY"
             />
 
@@ -25,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="News Heading"
-            android:id="@+id/idTVNewsHeading"
-            android:layout_below="@id/idIVNews"
+            android:id="@+id/TV_news_heading"
+            android:layout_below="@id/IV_News_Image"
             android:textColor="#FFFFFF"
             android:textSize="18dp"
             android:textStyle="bold"
@@ -37,7 +37,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVNewsHeading">
+            android:layout_below="@id/TV_news_heading">
 
             <TextView
                 android:fontFamily="@font/questrial"
@@ -55,7 +55,7 @@
 
             <TextView
                 android:fontFamily="@font/questrial"
-                android:id="@+id/TV_number"
+                android:id="@+id/TV_round_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"

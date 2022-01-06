@@ -107,7 +107,7 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/TV_Net_Worth"
-            app:layout_constraintStart_toEndOf="@+id/TV_Rs"
+            app:layout_constraintStart_toEndOf="@+id/TV_stock_worth_number"
             app:layout_constraintTop_toBottomOf="@+id/TV_stocks_owned"
             app:layout_constraintVertical_bias="0.428" />
 
@@ -126,7 +126,7 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/TV_Rs"
+            android:id="@+id/TV_stock_worth_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rs "

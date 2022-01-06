@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <TextView
-        android:id="@+id/TV_stock_name"
+        android:id="@+id/TV_stockName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
@@ -37,14 +37,14 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/IV_stock"
-        app:layout_constraintEnd_toStartOf="@+id/TV_Rs"
+        app:layout_constraintEnd_toStartOf="@+id/TV_stock_worth_number"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/IV_stock"
         app:layout_constraintTop_toTopOf="@+id/IV_stock"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/TV_Rs"
+        android:id="@+id/TV_stock_worth_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -53,13 +53,13 @@
         android:text="100"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_stock_name"
-        app:layout_constraintEnd_toStartOf="@+id/TV_holding"
-        app:layout_constraintTop_toTopOf="@+id/TV_stock_name"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_stockName"
+        app:layout_constraintEnd_toStartOf="@+id/TV_stock_number"
+        app:layout_constraintTop_toTopOf="@+id/TV_stockName"
         app:layout_constraintVertical_bias="0.571" />
 
     <TextView
-        android:id="@+id/TV_holding"
+        android:id="@+id/TV_stock_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -68,13 +68,13 @@
         android:text="100"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_Rs"
-        app:layout_constraintEnd_toStartOf="@+id/TV_total"
-        app:layout_constraintTop_toTopOf="@+id/TV_Rs"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_stock_worth_number"
+        app:layout_constraintEnd_toStartOf="@+id/TV_net_Stock_worth"
+        app:layout_constraintTop_toTopOf="@+id/TV_stock_worth_number"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/TV_total"
+        android:id="@+id/TV_net_Stock_worth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -83,8 +83,8 @@
         android:text="1000"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_holding"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_stock_number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/TV_holding"
+        app:layout_constraintTop_toTopOf="@+id/TV_stock_number"
         app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

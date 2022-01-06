@@ -3,12 +3,9 @@ package com.example.basiclayouts;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -60,10 +57,10 @@ public class StocksAdapter extends RecyclerView.Adapter<StocksAdapter.ViewHolder
         ConstraintLayout CV_stockItem;
         public ViewHolder(View itemView) {
             super(itemView);
-            stockName=itemView.findViewById(R.id.TV_stock_name);
-            stockOwned=itemView.findViewById(R.id.TV_holding);
-            stockNetWorth= itemView.findViewById(R.id.TV_total);
-            stockWorth=itemView.findViewById(R.id.TV_Rs);
+            stockName=itemView.findViewById(R.id.TV_stockName);
+            stockOwned=itemView.findViewById(R.id.TV_stock_number);
+            stockNetWorth= itemView.findViewById(R.id.TV_net_Stock_worth);
+            stockWorth=itemView.findViewById(R.id.TV_stock_worth_number);
             CV_stockItem=itemView.findViewById(R.id.CV_stockItem);
         }}
 }
