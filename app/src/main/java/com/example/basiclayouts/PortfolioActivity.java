@@ -1,13 +1,10 @@
 package com.example.basiclayouts;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
-import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
@@ -26,7 +23,7 @@ public class PortfolioActivity extends AppCompatActivity {
 
     private void recyclerViewStock() {
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
-        recyclerViewStockList=findViewById(R.id.RV_stock);
+        recyclerViewStockList=findViewById(R.id.RV_stock_owned);
         recyclerViewStockList.setLayoutManager(linearLayoutManager);
         ArrayList<StocksDomain> stocksDomainArrayList=new ArrayList<>();
         stocksDomainArrayList.add(new StocksDomain("Tata","10","100 ","1000"));

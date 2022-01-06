@@ -15,6 +15,7 @@
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/itemview_stock1.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/itemview_stock2.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/recyclerview_background.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/drawable/trading_stock.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout-large/crypto_layout.xml" value="0.131640625" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_front_page_options.xml" value="0.1" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_login.xml" value="0.1" />
@@ -22,8 +23,11 @@
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_modern_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_news.xml" value="0.1" />
-        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_portfolio.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_portfolio.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/activity_trading.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/crypto_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_news.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/news_itemview.xml" value="0.11574074074074074" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/stock_item_view.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/ddpsh/AndroidStudioProjects/Test/app/src/main/res/layout/stock_layout.xml" value="0.17552083333333332" />
       </map>
