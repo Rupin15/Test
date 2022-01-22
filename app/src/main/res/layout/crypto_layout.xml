@@ -11,7 +11,7 @@
     android:padding="10dp">
 
     <ImageView
-        android:id="@+id/IV_stock"
+        android:id="@+id/IV_crypto"
         android:layout_width="77dp"
         android:layout_height="60dp"
         android:layout_marginStart="4dp"
@@ -38,9 +38,9 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/IV_stock"
+        app:layout_constraintEnd_toEndOf="@+id/IV_crypto"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/IV_stock" />
+        app:layout_constraintStart_toStartOf="@+id/IV_crypto" />
 
     <TextView
        android:id="@+id/TV_crypto_netWorth_Rs"
@@ -50,14 +50,14 @@
         android:gravity="center"
         android:text="Rs: "
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_netWorth"
-        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_netWorth"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_worth_number2"
+        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_worth_number2"
         app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_netWorth" />
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_worth_number2" />
 
     <TextView
 
-        android:id="@+id/TV_crypto_netWorth"
+        android:id="@+id/TV_crypto_worth_number2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -67,13 +67,13 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/TV_crypto_price"
-        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_price"
+        app:layout_constraintEnd_toEndOf="@+id/TV_crypto_worth_number"
+        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_worth_number"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
 
-        android:id="@+id/TV_crypto_price"
+        android:id="@+id/TV_crypto_worth_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
@@ -82,8 +82,8 @@
         android:text="100"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/TV_crypto_holding"
-        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_holding" />
+        app:layout_constraintEnd_toEndOf="@+id/TV_crypto_number"
+        app:layout_constraintTop_toBottomOf="@+id/TV_crypto_number" />
 
     <TextView
 
@@ -94,12 +94,12 @@
         android:gravity="center"
         android:text="Rs: "
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_price"
-        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_price"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_price" />
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_worth_number"
+        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_worth_number"
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_worth_number" />
 
     <TextView
-        android:id="@+id/TV_crypto_holding"
+        android:id="@+id/TV_crypto_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -121,9 +121,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Holding"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_holding"
-        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_holding"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_holding" />
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_number"
+        app:layout_constraintEnd_toStartOf="@+id/TV_crypto_number"
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_number" />
 
     <TextView
         android:id="@+id/TV_worthText"
@@ -133,11 +133,11 @@
         android:layout_marginRight="8dp"
         android:fontFamily="@font/questrial"
         android:text="Worth"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_price"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_worth_number"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/TV_crypto_name"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_price"
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_worth_number"
         app:layout_constraintVertical_bias="0.333" />
 
     <TextView
@@ -148,9 +148,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="NetWorth"
-        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_netWorth"
+        app:layout_constraintBottom_toBottomOf="@+id/TV_crypto_worth_number2"
         app:layout_constraintEnd_toStartOf="@+id/TV_crypto_netWorth_Rs"
-        app:layout_constraintTop_toTopOf="@+id/TV_crypto_netWorth" />
+        app:layout_constraintTop_toTopOf="@+id/TV_crypto_worth_number2" />
 
     <ImageView
         android:id="@+id/imageView2"

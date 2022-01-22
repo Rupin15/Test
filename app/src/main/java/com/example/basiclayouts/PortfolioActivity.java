@@ -26,10 +26,10 @@ public class PortfolioActivity extends AppCompatActivity {
         recyclerViewStockList=findViewById(R.id.RV_stock_owned);
         recyclerViewStockList.setLayoutManager(linearLayoutManager);
         ArrayList<StocksDomain> stocksDomainArrayList=new ArrayList<>();
-        stocksDomainArrayList.add(new StocksDomain("Tata","10","100 ","1000"));
-        stocksDomainArrayList.add(new StocksDomain("Birla","10","100 ","1000" ));
-        stocksDomainArrayList.add(new StocksDomain("ABCD","10","100 ","1000" ));
-        stocksDomainArrayList.add(new StocksDomain("Rupin","10","100 ","1000" ));
+        stocksDomainArrayList.add(new StocksDomain("Tata","100","10000.0 ","100000"));
+        stocksDomainArrayList.add(new StocksDomain("Birla","100","0 ","1000.0" ));
+        stocksDomainArrayList.add(new StocksDomain("ABCD","0","1020 ","0" ));
+        stocksDomainArrayList.add(new StocksDomain("Rupin","1000","10 ","1000" ));
         stocksDomainArrayList.add(new StocksDomain("ABCD","10","100 ","1000" ));
         adapter_stock=new StocksAdapter(stocksDomainArrayList);
         recyclerViewStockList.setAdapter(adapter_stock);

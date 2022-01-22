@@ -62,9 +62,9 @@ public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.ViewHolder
         public ViewHolder(View itemView) {
             super(itemView);
             cryptoName=itemView.findViewById(R.id.TV_crypto_name);
-            cryptoOwned=itemView.findViewById(R.id.TV_crypto_holding);
-            cryptoWorth=itemView.findViewById(R.id.TV_crypto_price);
-            cryptoNetWorth=itemView.findViewById(R.id.TV_crypto_netWorth);
+            cryptoOwned=itemView.findViewById(R.id.TV_crypto_number);
+            cryptoWorth=itemView.findViewById(R.id.TV_crypto_worth_number);
+            cryptoNetWorth=itemView.findViewById(R.id.TV_crypto_worth_number2);
             constraintLayout=itemView.findViewById(R.id.CV_cryptoItem);
         }}
 }
