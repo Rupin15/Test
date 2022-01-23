@@ -178,7 +178,7 @@
             android:hint="Quantity"
             android:inputType="textPersonName"
             android:textColorHint="#777676"
-            android:textSize="18sp"
+            android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="@+id/BT_sell"
             app:layout_constraintStart_toEndOf="@+id/BT_sell"
             app:layout_constraintTop_toTopOf="@+id/BT_sell"

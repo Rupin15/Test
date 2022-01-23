@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PortfolioActivity"
-    android:background="#242444"
-    >
+    android:background="#242444">
 
     <!--    <ScrollView-->
 <!--        android:id="@+id/scrollView3"-->
