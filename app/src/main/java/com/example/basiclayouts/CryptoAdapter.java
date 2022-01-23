@@ -66,5 +66,6 @@ public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.ViewHolder
             cryptoWorth=itemView.findViewById(R.id.TV_crypto_worth_number);
             cryptoNetWorth=itemView.findViewById(R.id.TV_crypto_worth_number2);
             constraintLayout=itemView.findViewById(R.id.CV_cryptoItem);
-        }}
+        }
+    }
 }

@@ -3,6 +3,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -15,19 +16,17 @@ public class OnBoardingActivity extends AppCompatActivity {
     ViewPager mSLideViewPager;
 
     Button backbtn, nextbtn, skipbtn;
-
-    TextView[] dots;
     ViewPagerAdapter viewPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_on_boarding);
 
-        backbtn = findViewById(R.id.backbtn);
-        nextbtn = findViewById(R.id.nextbtn);
-        skipbtn = findViewById(R.id.skipButton);
-
+      intial();
+        SharedPreferences preferences=getSharedPreferences("preferences",MODE_PRIVATE);
+        boolean firstSTart=preferences.getBoolean("firstStart",true);
+        if(firstSTart){
         backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,9 +76,22 @@ public class OnBoardingActivity extends AppCompatActivity {
         mSLideViewPager.setAdapter(viewPagerAdapter);
 
         mSLideViewPager.addOnPageChangeListener(viewListener);
+        SharedPreferences.Editor editor=preferences.edit();
+        editor.putBoolean("firstStart",false);
+        editor.apply();
+        }
+        else{
+            startActivity(new Intent(OnBoardingActivity.this,LoginBackupActivity.class));
+        }
+
 
     }
 
+    private void intial() {
+        backbtn = findViewById(R.id.backbtn);
+        nextbtn = findViewById(R.id.nextbtn);
+        skipbtn = findViewById(R.id.skipButton);
+    }
 
 
     ViewPager.OnPageChangeListener viewListener = new ViewPager.OnPageChangeListener() {

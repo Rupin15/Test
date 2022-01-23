@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.basiclayouts"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.airbnb.android:lottie:3.4.1'
     compile 'com.ms-square:expandableTextView:0.1.4'
-
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
     implementation 'com.airbnb.android:lottie:3.4.1'
 
 }
