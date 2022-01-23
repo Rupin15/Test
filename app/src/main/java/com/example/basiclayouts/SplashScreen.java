@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.airbnb.lottie.LottieAnimationView;
@@ -41,7 +40,7 @@ public class SplashScreen extends AppCompatActivity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), OnBoardingActivity.class);
                 startActivity(intent);
             }
         }, 10000);

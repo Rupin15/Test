@@ -9,6 +9,16 @@
     <color name="white">#FFFFFFFF</color>
     <color name="recyclerView">#463C6E</color>
     <color name="gray">#D3d3d3</color>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
 </resources>
 
 <!--6995ed  3b2c82 5579c6  F74343B6-->
